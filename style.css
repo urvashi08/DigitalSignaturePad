@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:10px;
+}
+
+.signature-container {
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 470px;
+    width: 90%;
+   
+}
+
+canvas {
+    border: 1px solid #ccc;
+    cursor: crosshair;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.color-palette {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:10px;
+}
+
+.colorButton {
+    margin-top: 10px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.colorButton.selected {
+    border: 2px solid #007BFF;
+}
+
+#blackColor {
+    background-color: black;
+    color: white;
+}
+
+#blueColor {
+    background-color: blue;
+    color: white;
+}
+
+#redColor {
+    background-color: red;
+    color: white;
+}
+
+#greenColor {
+    background-color: green;
+    color: white;
+}
